@@ -1,0 +1,17 @@
+/* pages/pop/index.wxss */
+
+.button-pop{
+  margin-bottom: 15px;
+}
+.pop1{
+  width: 60%;
+  height: auto;
+  padding:30px 0px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  border: 1px solid #ccc;
+  display: flex;
+}

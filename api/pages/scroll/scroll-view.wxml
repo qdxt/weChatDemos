@@ -1,0 +1,20 @@
+<!--pages/scroll/scroll-view.wxml-->
+ <view class='section'>
+  <text class='text'>横向滚动</text>
+  <scroll-view class='scroll-view-box' scroll-x >
+      <view class='scroll-view-item bc_green'></view>
+      <view class='scroll-view-item bc_red'></view>
+      <view class='scroll-view-item bc_blue'></view>
+  </scroll-view>
+</view> 
+
+ <view class='section'>
+  <text class='text'>纵向滚动</text>
+  <scroll-view class='scroll-view-wrap' scroll-y >
+      <view class='scroll-view-list bc_red'></view>
+      <view class='scroll-view-list bc_green'></view>
+      <view class='scroll-view-list bc_blue'></view>
+  </scroll-view>
+</view>
+
+

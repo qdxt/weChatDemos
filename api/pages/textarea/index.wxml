@@ -1,0 +1,9 @@
+<view>
+  <textarea placeholder='输入框高度自适应，不会出现滚动条' auto-height='true'/>
+</view>
+<view>
+  <textarea placeholder='自动聚焦的textarea' auto-focus='true'/>
+</view>
+<view>
+  <textarea placeholder='禁用状态' disabled='true'/>
+</view>

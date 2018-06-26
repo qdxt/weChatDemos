@@ -1,0 +1,27 @@
+<view class='mt10'>
+  <checkbox-group>
+    <checkbox value='中国' checked='true' color='#abcdef'></checkbox>中国
+    <checkbox value='美国' color='#333333'></checkbox>美国
+  </checkbox-group>
+</view>
+
+<view class='mt10'>
+  <checkbox-group>
+    <checkbox></checkbox>中国
+  </checkbox-group>
+</view>
+<view class='mt10'>
+  <checkbox-group>
+    <checkbox></checkbox>美国
+  </checkbox-group>
+</view>
+<view class='mt10'>
+  <checkbox-group>
+    <checkbox></checkbox>日本
+  </checkbox-group>
+</view>
+<view class='mt10'>
+  <checkbox-group>
+    <checkbox></checkbox>韩国
+  </checkbox-group>
+</view>

@@ -1,0 +1,19 @@
+/* pages/view/view.wxss */
+.section{
+  margin-top: 30rpx;
+  margin-bottom: 50rpx
+}
+
+.flex1{
+  display: flex;
+  flex-direction:row;
+}
+.flex2{
+  display: flex;
+  flex-direction:column;
+}
+.flex-item{
+  flex:1;
+  text-align: center;
+  color: #fff;
+}

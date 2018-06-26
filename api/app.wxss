@@ -1,0 +1,15 @@
+/**app.wxss**/
+.text{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.bc_green{
+  background-color: green;
+}
+.bc_red{
+  background-color: red;
+}
+.bc_blue{
+  background-color: blue;
+}

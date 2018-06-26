@@ -1,0 +1,11 @@
+/* pages/login/login.wxss */
+.login-form{
+  margin-top: 320rpx;
+  display: block;
+}
+.goReg{
+  text-align: center;
+  margin-top: 20rpx;
+  font-size: 26rpx;
+  color: #c9c9c9;
+}

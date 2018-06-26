@@ -1,0 +1,27 @@
+<form>
+  <view>
+    <switch></switch>
+  </view>
+  <view>
+    <radio-group>
+      <radio>中国</radio>
+      <radio>美国</radio>
+    </radio-group>
+  </view>
+  <view>
+    <checkbox-group>
+      <checkbox>日本</checkbox>
+      <checkbox>韩国</checkbox>
+    </checkbox-group>
+  </view>
+  <view>
+    <slider>滑动</slider>
+  </view>
+  <view>
+    <input type='text' placeholder="这是一个输入框"></input>
+  </view>
+  <view>
+    <button formType="submit">Submit</button>
+    <button formType="reset">Reset</button>
+  </view>
+</form>

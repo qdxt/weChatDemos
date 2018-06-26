@@ -1,0 +1,19 @@
+/* pages/reg/index.wxss */
+
+.login-wrap{
+  display: flex;
+  justify-content:center;
+}
+.form-text{
+  margin-top: 250rpx
+}
+
+.radio-group{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30rpx
+}
+.sex{
+  margin-left: 20%;
+  margin-right: 20%
+}

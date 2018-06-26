@@ -1,0 +1,68 @@
+page{
+  width: 100%;
+  height: 100%;
+}
+.guess-container{
+  background-color: #FAE738;
+  width: 100%;
+  height: 100%;
+}
+.win-number{
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  padding-top: 20rpx;
+}
+.guess-box,.user-box{
+  display: flex;
+  margin-top: 10px;
+}
+.user-item{
+  flex: 1;
+  height: 80px;
+  text-align: center;
+}
+.user-item image{
+  width:80px;
+  height: 80px;
+  border-radius: 40px;
+}
+.guess-item{
+  flex: 1;
+  height: 90px;
+  text-align: center;
+}
+.guess-item image{
+  width: 90px;
+  height: 90px;
+}
+.user-guess{
+  width: 92%;
+  height: 350px;
+  background: #fff;
+  margin: auto;
+  margin-top:30px;
+}
+.user-text{
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 15px;
+}
+.user-click{
+  width: 70%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  background: #FAE738;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.user-info{
+  font-size: 12px;
+  color: #bcbcbc;
+  text-align: center;
+  margin-top: 15px;
+}

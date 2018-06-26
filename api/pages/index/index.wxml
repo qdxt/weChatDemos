@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class='container'>
+  <button bindtap='viewClick'>view</button>
+  <button bindtap='scrollClick'>scroll-view</button>
+  <button bindtap='swiperClick'>swiper</button>
+  <button bindtap='textClick'>text</button>
+  <button bindtap='iconClick'>icon</button>
+  <button bindtap='progClick'>progress</button>
+  <button bindtap='buttonClick'>button</button>
+  <button bindtap='checkboxClick'>checkbox</button>
+  <button bindtap='formClick'>form</button>
+  <button bindtap='inputClick'>input</button>
+  <button bindtap='pickerClick'>picker</button>
+  <button bindtap='sliderClick'>slider</button>
+  <button bindtap='textareaClick'>textarea</button>
+  <button bindtap='navigaterClick'>navigater</button>
+  <button bindtap='audioClick'>audio</button>
+  <button bindtap='videoClick'>video</button>
+  <button bindtap='cameraClick'>camera</button>
+</view>

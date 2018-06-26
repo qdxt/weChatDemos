@@ -1,0 +1,6 @@
+<view  class='w100 h100'>
+  <view class='index-box'>
+    <button type='default' size='default' class='button-defalut mb40rpx' catchtap='regClick'>注册</button>
+    <button type='default' size='default' class='button-defalut' catchtap='loginClick'>登录</button>
+  </view>
+</view>

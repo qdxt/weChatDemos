@@ -1,0 +1,201 @@
+/**index.wxss**/
+.navigator{
+  display: flex;
+  background: #06c1ae;
+}
+.nav-left{
+  width: 70px;
+  height: 50px;
+}
+.nav-location{
+  line-height: 50px;
+  margin-left: 10px;
+  color: #fff;
+}
+.nav-arrow{
+  transform: rotateZ(90deg);
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 6px;
+  position: relative;
+  top: 2px;
+}
+.nav-center{
+  flex: 1;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.nav-center-search{
+  width: 22px;
+  height: 22px;
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+.nav-center-text{
+  display: block;
+  font-size: 14px;
+  color:#68dbce;
+  position: absolute;
+  left: 35px;
+  top: 16px;
+}
+.nav-input{
+  border-radius:4px;
+  background: rgba(0,0,0,.15); 
+  margin-top: 10px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.nav-right{
+  width: 40px;
+  height: 50px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.nav-user-icon{
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 12px;
+  top: 8px;
+}
+.nav-user-text{
+  display: block;
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  bottom: 4px;
+  font-size: 12px;
+}
+.wrap{
+  width: 100%;
+  height: 50px;
+}
+.wrap image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.lingdu-swiper{
+  height: 175px;
+}
+.list-contain{
+   margin-top: 10px; 
+  margin-bottom: 20px; 
+
+}
+.list-box{
+  display: flex;
+  flex-direction:row; 
+  flex-wrap: wrap; 
+}
+.list-box:nth-child(2){
+  margin-top: 15px;
+}
+ .list{
+  flex:auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.list image{
+  display:block;
+  width: 40px;
+  height: 40px;
+}
+.list text{
+  display: block;
+  font-size: 12px;
+  color: #666;
+  margin-top: 6px;
+}
+.view-empty{
+  width: 750rpx;
+  height: 20rpx;
+  background: #F0EFED;
+}
+.like-box{
+  width: 100%;
+  height: 100%;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+.like-text{
+  font-size: 17px;
+  color: #333;
+  height: 36px;
+  display: block;
+  line-height: 36px;
+  border-bottom:1px solid #DDD8CE;
+}
+.like-list{
+  padding: 7px 5px 7px 0px;
+  display: flex;
+  border-bottom: 1px solid #DDD8CE;
+}
+.like-list-left{
+  width: 90px;
+  height: 90px;
+  margin-right:15px;
+}
+.like-list-left image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.like-list-right{
+  width: 100%;
+  height: 100%
+}
+.like-list-right text{
+  display: block;
+  font-size: 12px;
+  color: #666;
+}
+.like-list-right .name{
+   font-size: 15px;
+   color:#333;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+.like-content{
+  margin-top: 20px;
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.like-content .import-price{
+  color: #06c1ae;
+  font-size: 19px;
+  margin-right: 2px;
+}
+.like-content .low-price{
+  font-size: 14px;
+  color:#06c1ae;
+  margin-right: 5px;
+}
+.like-content .like-number{
+  position: absolute;
+  right: 20px;
+  top: 0px;
+}
+.like-view{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size:15px;
+  color:#06c1ae;
+  text-align: center;
+}

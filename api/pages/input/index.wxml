@@ -1,0 +1,23 @@
+<view>
+  <text>可以自动聚焦的input</text>
+  <input placeholder='这是一个可以自动聚焦的input'  type='text' focus="true"/>
+</view>
+<view>
+  <input password='true' placeholder='这是一个输入密码的input'/>
+</view>
+<view>
+  <input maxlength='5' placeholder='最大输入长度为5' />
+</view>
+<view>
+  <text>实时获取输入值: {{inputValue}}</text>
+  <input placeholder='输入同步到view中' bindinput='bindKeyInput'/>
+</view>
+<view>
+  <input placeholder='数字输入键盘' type='number'/>
+</view>
+<view>
+  <input placeholder='身份证输入键盘' type='idcard'/>
+</view>
+<view>
+  <input placeholder='带小数点的数字键盘' type='digit'/>
+</view>

@@ -1,0 +1,28 @@
+<view class='guess-container'>
+  <text class='win-number'>你已经获胜了<text style="color:red;">{{winnum}}</text>次</text>
+  <view class='guess-box'>
+    <view class='guess-item'>
+      <image src='{{imageAsrc}}' data-index="{{imagesrcIndex}}"></image>
+    </view>
+    <view class='guess-item'>{{message}}</view>
+    <view class='guess-item'>
+      <image src='{{imageUserScr}}'></image>
+    </view>
+  </view>
+  <view class='user-guess'>
+    <text class='user-text'>出拳吧！少年</text>
+    <view class='user-box'>
+      <view class='user-item'>
+        <image src='/pages/img/shitou.png' data-index="2" catchtap='userClick'></image>
+      </view>
+      <view class='user-item'>
+        <image src='/pages/img/jiandao.png' data-index="1" catchtap='userClick'></image>
+      </view>
+      <view class='user-item'>
+        <image src='/pages/img/bu.png' data-index="3" catchtap='userClick'></image>
+      </view> 
+    </view>
+    <view class='user-click' catchtap='againClick'>再来</view>
+     <view class='user-info'>点击上图中的三个图片任意一个即默认开始游戏</view>
+  </view>
+</view>

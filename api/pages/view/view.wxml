@@ -1,0 +1,15 @@
+<!--pages/view/view.wxml-->
+<text class='text'>横向布局</text>
+<view class="section flex1">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
+</view>
+<text class='text'>纵向布局</text>
+<view class="section flex2">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
+</view>
+<view>
+</view>

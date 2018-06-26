@@ -1,0 +1,216 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="navigator">
+   <view class='nav-left'>
+      <text class="nav-location">北京</text>
+      <text class='nav-arrow'>></text>
+   </view>
+   <view class="nav-center">
+      <image src='/image/search.png' class="nav-center-search"></image>
+      <input class="nav-input"></input>
+      <text class="nav-center-text">输入商家/品类/商圈</text>
+   </view>
+   <view class='nav-right'>
+        <image src="/image/user.png" class='nav-user-icon'></image>
+        <text class='nav-user-text'>我的</text>
+   </view>
+  </view>
+  <view class="wrap">
+    <image src="/image/wrap.jpg"></image>
+  </view>
+  <swiper indicator-dots='true' autoplay="true" class='lingdu-swiper' indicator-active-color="#06c1ae"indicator-color="#F0EFED">
+    <swiper-item>
+      <view class='list-contain'>
+        <view class='list-box'>
+          <view class="list">
+            <image src="/image/food.png"></image>
+            <text>美食</text>
+          </view>
+          <view class="list">
+            <image src="/image/movie.png"></image>
+            <text>电影</text>
+          </view>
+          <view class="list">
+            <image src="/image/hotel.png"></image>
+            <text>酒店</text>
+          </view>
+          <view class="list">
+            <image src="/image/fun.png"></image>
+            <text>休闲娱乐</text>
+          </view>
+          <view class="list">
+            <image src="/image/outfood.png"></image>
+            <text>外卖</text>
+          </view>
+        </view>
+        <view class="list-box">
+          <view class="list">
+            <image src="/image/ktv.png"></image>
+            <text>ktv</text>
+          </view>
+          <view class="list">
+            <image src="/image/travel.png"></image>
+            <text>旅游</text>
+          </view>
+          <view class="list">
+            <image src="/image/women.png"></image>
+            <text>丽人</text>
+          </view>
+          <view class="list">
+            <image src="/image/quickfood.png"></image>
+            <text>小吃快餐</text>
+          </view>
+          <view class="list">
+            <image src="/image/airport.png"></image>
+            <text>机票</text>
+          </view>
+        </view> 
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class='list-contain'>
+        <view class='list-box'>
+          <view class="list">
+            <image src="/image/food.png"></image>
+            <text>美食</text>
+          </view>
+          <view class="list">
+            <image src="/image/movie.png"></image>
+            <text>电影</text>
+          </view>
+          <view class="list">
+            <image src="/image/hotel.png"></image>
+            <text>酒店</text>
+          </view>
+          <view class="list">
+            <image src="/image/fun.png"></image>
+            <text>休闲娱乐</text>
+          </view>
+          <view class="list">
+            <image src="/image/outfood.png"></image>
+            <text>外卖</text>
+          </view>
+        </view>
+        <view class="list-box">
+          <view class="list">
+            <image src="/image/ktv.png"></image>
+            <text>ktv</text>
+          </view>
+          <view class="list">
+            <image src="/image/travel.png"></image>
+            <text>旅游</text>
+          </view>
+          <view class="list">
+            <image src="/image/women.png"></image>
+            <text>丽人</text>
+          </view>
+          <view class="list">
+            <image src="/image/quickfood.png"></image>
+            <text>小吃快餐</text>
+          </view>
+          <view class="list">
+            <image src="/image/airport.png"></image>
+            <text>机票</text>
+          </view>
+        </view> 
+      </view>
+    </swiper-item>
+  </swiper>
+  <view class='view-empty'></view>
+  <view class='like-box'>
+    <text class='like-text'>猜你喜欢</text>
+    <view class='like-list'>
+      <view class='like-list-left'>
+        <image src="/image/1.jpg"></image>
+      </view>
+      <view class='like-list-right'>
+      <text class='name'>粒上皇</text>
+      <text>[29店通用]霜糖山楂1份</text>
+      <view class='like-content'>
+        <text class='import-price'>1</text>
+        <text class='low-price'>元</text>
+        <text class='top-price'>门市价:10元</text>
+        <text class='like-number'>已售1987</text>
+      </view>
+      </view>
+    </view>
+    <view class='like-list'>
+      <view class='like-list-left'>
+        <image src="/image/2.jpg"></image>
+      </view>
+      <view class='like-list-right'>
+      <text class='name'>呷浦呷浦</text>
+      <text>[北京等]100元代金券1张，可叠加</text>
+      <view class='like-content'>
+        <text class='import-price'>70</text>
+        <text class='low-price'>元</text>
+        <text class='top-price'>门市价:100元</text>
+        <text class='like-number'>已售8720</text>
+      </view>
+      </view>
+    </view>
+    <view class='like-list'>
+      <view class='like-list-left'>
+        <image src="/image/3.jpg"></image>
+      </view>
+      <view class='like-list-right'>
+      <text class='name'>那年，约火锅•烤场</text>
+      <text>[西四]任性超级自助套餐</text>
+      <view class='like-content'>
+        <text class='import-price'>69</text>
+        <text class='low-price'>元</text>
+        <text class='top-price'>门市价:580元</text>
+        <text class='like-number'>已售1130</text>
+      </view>
+      </view>
+    </view>
+    <view class='like-list'>
+      <view class='like-list-left'>
+        <image src="/image/1.jpg"></image>
+      </view>
+      <view class='like-list-right'>
+      <text class='name'>粒上皇</text>
+      <text>[29店通用]霜糖山楂1份</text>
+      <view class='like-content'>
+        <text class='import-price'>1</text>
+        <text class='low-price'>元</text>
+        <text class='top-price'>门市价:10元</text>
+        <text class='like-number'>已售1987</text>
+      </view>
+      </view>
+    </view>
+    <view class='like-list'>
+      <view class='like-list-left'>
+        <image src="/image/2.jpg"></image>
+      </view>
+      <view class='like-list-right'>
+      <text class='name'>呷浦呷浦</text>
+      <text>[北京等]100元代金券1张，可叠加</text>
+      <view class='like-content'>
+        <text class='import-price'>70</text>
+        <text class='low-price'>元</text>
+        <text class='top-price'>门市价:100元</text>
+        <text class='like-number'>已售8720</text>
+      </view>
+      </view>
+    </view>
+    <view class='like-list'>
+      <view class='like-list-left'>
+        <image src="/image/3.jpg"></image>
+      </view>
+      <view class='like-list-right'>
+      <text class='name'>那年，约火锅•烤场</text>
+      <text>[西四]任性超级自助套餐</text>
+      <view class='like-content'>
+        <text class='import-price'>69</text>
+        <text class='low-price'>元</text>
+        <text class='top-price'>门市价:580元</text>
+        <text class='like-number'>已售1130</text>
+      </view>
+      </view>
+    </view>
+  </view>
+  <view class='like-view'>
+      查看全部团购
+  </view>
+</view>

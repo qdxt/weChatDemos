@@ -1,0 +1,9 @@
+<view class="login-wrap w100 h100">
+    <form class='login-form w100'>
+      <input type='text' placeholder='请输入手机号' class='input-default'  bindinput='inputText' ></input>
+      <input type='password' placeholder='请输入密码' class='input-default' bindinput='passwordText'></input>
+      <button type='default' size='default' class='button-defalut' catchtap='loginTap'>登录</button>
+      <view class='goReg w100' catchtap='goReg'>还没有账号,点击去注册</view>
+    </form>
+    <view class='show-message' wx:if="{{flag}}" >{{message}}</view>
+</view>

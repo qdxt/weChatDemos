@@ -1,0 +1,7 @@
+<view class="container">
+  <button class='button-pop' catchtap='openPop1'>弹窗样式1</button>
+  <view class='pop1'wx:if="{{flag}}">
+    <button  catchtap='closePop'>取消</button>
+    <button catchtap='surePop'>确定</button>
+  </view>
+</view>

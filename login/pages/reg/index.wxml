@@ -1,0 +1,19 @@
+<view class='login-wrap w100 h100'>
+  <form class='w100'>
+    <view class='form-text w100 h100'>
+        <input type='text' placeholder='请输入手机号' class='input-default'  bindinput='inputText'></input>
+        <input type='password' placeholder='请输入密码' class='input-default' bindinput='passwordText'></input>
+        <input type='password' placeholder='请再次输入密码' class='input-default' bindinput='confirmPasswordText'></input>
+        <radio-group class="radio-group" bindchange="radioChange">
+          <label class="radio sex">
+            <radio value="男" />男
+          </label>
+          <label class="radio">
+            <radio value="女" />女
+          </label>
+        </radio-group>
+        <button type='default' size='default' class='button-defalut' catchtap='regTap' disabled="{{condition}}">注册</button>
+      </view>
+  </form>
+  <view class='show-message' wx:if="{{flag}}" >{{message}}</view>
+</view>

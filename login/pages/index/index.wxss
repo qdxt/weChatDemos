@@ -1,0 +1,4 @@
+/* pages/index/index.wxss */
+.index-box{
+  margin-top: 400rpx;
+}

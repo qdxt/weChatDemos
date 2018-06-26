@@ -1,0 +1,17 @@
+<view class='container'>
+ <view class="list-box">
+     <view wx:for="{{array}}"  class="list-item" catchtap='editList' data-index="{{index}}">
+        {{item}}
+    </view> 
+ </view>
+ <view class="button-box">
+  <button catchtap="addList">增加</button>
+  <button catchtap="removeList">删除</button>
+  <button catchtap="locationPop">跳转</button>
+ </view>
+ <text class='pop' wx:if="{{condition}}">
+    已经删除完毕
+ </text>
+ <text class="edit-pop">Tips:点击列表都可修改当前列表内容</text>
+</view>
+

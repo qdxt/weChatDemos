@@ -1,0 +1,13 @@
+/* pages/text/index.wxss */
+.text-box{
+  width: 60%;
+  height: 150px;
+  background: #efefef;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 12px;
+  overflow-y: scroll;
+}
+.container button{
+  margin-top: 15px;
+}

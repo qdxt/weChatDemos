@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='move-box'>
+    <view wx:for="{{array}}" wx:for-item="itemName">
+    {{itemName}}
+    </view>
+  </view>
+</view>
